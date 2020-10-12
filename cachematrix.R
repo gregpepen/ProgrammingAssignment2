@@ -21,8 +21,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 ## Write a short comment describing this function
  ## Return a matrix that is the inverse of 'x'
-    ## This function uses the  functions cache in the "makeCacheMatrix" above and 
-##find use the stored data if the imput is the same already used, if not it evaluate
+ ## This function uses the  functions cache in the "makeCacheMatrix" above and 
+ ##find use the stored data if the imput is the same already used, if not it evaluate
 #the imput (matrix) and return its inverse 
 
 cacheSolve <- function(x, ...) {
